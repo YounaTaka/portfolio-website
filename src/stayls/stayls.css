@@ -1,0 +1,284 @@
+body {
+  font-family: Inter, sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  background-color: black;
+  color: #E5E5E5;
+  width: 100%;
+  height: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .logo {
+  font-size: 24px;
+  margin-left: 4%;
+}
+header nav {
+  font-size: 14px;
+  margin-right: 4%;
+}
+header nav span {
+  padding: 10px;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main .first_page {
+  width: 100%;
+  height: 100%;
+}
+main .first_page .avatar {
+  margin-top: 0%;
+  float: right;
+  border-radius: 50%;
+  width: 290px;
+  height: 290px;
+  position: relative;
+  z-index: 1;
+}
+main .first_page .circle {
+  width: 311px;
+  height: 311px;
+  border-radius: 50%;
+  float: right;
+  background-color: black;
+  position: absolute;
+  right: 9%;
+  z-index: 0;
+  top: 10%;
+}
+main .first_page h1 {
+  font-size: 32px;
+  margin-top: 8%;
+  width: 50%;
+  height: 20%;
+}
+main .first_page .task_me {
+  margin-top: 4%;
+  border-radius: 90px;
+  border-width: 0px;
+  background-color: #CB0001;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  width: 30%;
+  padding: 2%;
+  font-size: 24px;
+}
+main .why_me {
+  text-align: center;
+  width: 100%;
+  height: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .why_me h3 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 24px;
+}
+main .why_me p {
+  padding-right: 5%;
+  margin-top: 5%;
+  display: inline-block;
+  font-size: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .why_me p .beast_qulity {
+  width: 156px;
+  height: 58px;
+}
+main .why_me p .not_more {
+  width: 171px;
+  height: 58px;
+}
+main .why_me p .work_big {
+  width: 140px;
+  height: 67px;
+}
+main .why_me p .lamp {
+  width: 190px;
+  height: 100px;
+}
+main .why_me img {
+  padding-bottom: 5%;
+  width: 147px;
+  height: 147px;
+}
+main .my_projecs h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+main .my_projecs img {
+  width: 230px;
+  height: 222px;
+  padding-left: 3%;
+}
+main .my_projecs p {
+  color: #E5E5E5;
+}
+main .my_projecs .iliustration_card {
+  width: 100%;
+  height: 30%;
+  background-color: #2D2929;
+  border-radius: 16px;
+  border-width: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 2%;
+}
+main .my_projecs .iliustration_card img {
+  padding: 2% 2% 2% 2%;
+}
+main .my_projecs .iliustration_card .text_ilusration {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+main .my_projecs .logo_card {
+  width: 100%;
+  height: 30%;
+  background-color: #DF4A4B;
+  border-radius: 16px;
+  border-width: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 2%;
+}
+main .my_projecs .logo_card img {
+  padding: 2% 2% 2% 2%;
+}
+main .my_projecs .logo_card .logo_text {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+main .paint_card {
+  width: 100%;
+  height: 30%;
+  background-color: #2D2929;
+  border-radius: 16px;
+  border-width: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 2%;
+}
+main .paint_card img {
+  padding: 2% 2% 2% 2%;
+}
+main .paint_card .paint_text {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+main .to_learn_more {
+  margin-top: 5%;
+  border-radius: 90px;
+  border-width: 0px;
+  background-color: #DF4A4B;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 20%;
+  padding: 2%;
+  margin: 0 auto;
+  display: block;
+}
+
+footer .bottom h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+footer .bottom img {
+  width: 60px;
+  height: 60px;
+  margin-right: 2%;
+}
+footer .bottom .social_media {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+footer h6 {
+  color: #DF4A4B;
+  font-size: 16px;
+  text-align: center;
+}
